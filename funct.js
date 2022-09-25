@@ -158,11 +158,6 @@ function populateFields() {
       </div>`
     );
   });
-  
-  $("#tens, #fiveHundreds").val(2).trigger("change");
-  $("#oneHundreds").val(4).trigger("change");
-  $("#fiftys, #twentys, #fives").val(1).trigger("change");
-  $("#ones").val(5).trigger("change");
 }
 
 function loadJSON(callback) {
