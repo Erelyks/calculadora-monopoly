@@ -118,14 +118,15 @@ function populateFields() {
   });
 
   const bills = [
-    {"denomination": "one", "alt": "$1"},
-    {"denomination": "five", "alt": "$5"},
-    {"denomination": "ten", "alt": "$10"},
-    {"denomination": "twenty", "alt": "$20"},
-    {"denomination": "fifty", "alt": "$50"},
+    {"denomination": "fiveHundred", "alt": "$500"},
     {"denomination": "oneHundred", "alt": "$100"},
-    {"denomination": "fiveHundred", "alt": "$500"}
+    {"denomination": "fifty", "alt": "$50"},
+    {"denomination": "twenty", "alt": "$20"},
+    {"denomination": "ten", "alt": "$10"},
+    {"denomination": "five", "alt": "$5"},
+    {"denomination": "one", "alt": "$1"}
   ];
+
   bills.forEach(bill => {
     $("#cash").append(`
       <div class="level is-mobile">
