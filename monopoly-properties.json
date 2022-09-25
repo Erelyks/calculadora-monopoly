@@ -1,0 +1,534 @@
+{
+  "streets": [
+    {
+      "code": "B1",
+      "colour_set": "brown",
+      "name_us": "Mediterranean Avenue",
+      "name_uk": "Old Kent Road",
+      "name_la": "Avenida Mediterráneo",
+      "price": 60,
+      "house_cost": 50,
+      "rent": {
+        "base": 2,
+        "houses": {
+          "1": 10,
+          "2": 30,
+          "3": 90,
+          "4": 160
+        },
+        "hotel": 250
+      },
+      "mortgage": 30
+    },
+    {
+      "code": "B2",
+      "colour_set": "brown",
+      "name_us": "Baltic Avenue",
+      "name_uk": "Whitechapel Road",
+      "name_la": "Avenida Báltica",
+      "price": 60,
+      "house_cost": 50,
+      "rent": {
+        "base": 4,
+        "houses": {
+          "1": 20,
+          "2": 60,
+          "3": 180,
+          "4": 320
+        },
+        "hotel": 450
+      },
+      "mortgage": 30
+    },
+    {
+      "code": "LB1",
+      "colour_set": "light-blue",
+      "name_us": "Oriental Avenue",
+      "name_uk": "The Angel, Islington",
+      "name_la": "Avenida Oriental",
+      "price": 100,
+      "house_cost": 50,
+      "rent": {
+        "base": 6,
+        "houses": {
+          "1": 30,
+          "2": 90,
+          "3": 270,
+          "4": 400
+        },
+        "hotel": 550
+      },
+      "mortgage": 50
+    },
+    {
+      "code": "LB2",
+      "colour_set": "light-blue",
+      "name_us": "Vermont Avenue",
+      "name_uk": "Euston Road",
+      "name_la": "Avenida Vermont",
+      "price": 100,
+      "house_cost": 50,
+      "rent": {
+        "base": 6,
+        "houses": {
+          "1": 30,
+          "2": 90,
+          "3": 270,
+          "4": 400
+        },
+        "hotel": 550
+      },
+      "mortgage": 50
+    },
+    {
+      "code": "LB3",
+      "colour_set": "light-blue",
+      "name_us": "Connecticut Avenue",
+      "name_uk": "Pentonville Road",
+      "name_la": "Avenida Connecticut",
+      "price": 120,
+      "house_cost": 50,
+      "rent": {
+        "base": 8,
+        "houses": {
+          "1": 40,
+          "2": 100,
+          "3": 300,
+          "4": 450
+        },
+        "hotel": 600
+      },
+      "mortgage": 60
+    },
+    {
+      "code": "M1",
+      "colour_set": "magenta",
+      "name_us": "St. Charles Place",
+      "name_uk": "Pall Mall",
+      "name_la": "Plaza San Carlos",
+      "price": 140,
+      "house_cost": 100,
+      "rent": {
+        "base": 10,
+        "houses": {
+          "1": 50,
+          "2": 150,
+          "3": 450,
+          "4": 625
+        },
+        "hotel": 750
+      },
+      "mortgage": 70
+    },
+    {
+      "code": "M2",
+      "colour_set": "magenta",
+      "name_us": "States Avenue",
+      "name_uk": "Whitehall",
+      "name_la": "Avenida Estados",
+      "price": 140,
+      "house_cost": 100,
+      "rent": {
+        "base": 10,
+        "houses": {
+          "1": 50,
+          "2": 150,
+          "3": 450,
+          "4": 625
+        },
+        "hotel": 750
+      },
+      "mortgage": 70
+    },
+    {
+      "code": "M3",
+      "colour_set": "magenta",
+      "name_us": "Virginia Avenue",
+      "name_uk": "Northumberland Avenue",
+      "name_la": "Avenida Virginia",
+      "price": 160,
+      "house_cost": 100,
+      "rent": {
+        "base": 12,
+        "houses": {
+          "1": 60,
+          "2": 180,
+          "3": 500,
+          "4": 700
+        },
+        "hotel": 900
+      },
+      "mortgage": 80
+    },
+    {
+      "code": "O1",
+      "colour_set": "orange",
+      "name_us": "St. James Place",
+      "name_uk": "Bow Street",
+      "name_la": "Plaza St. James",
+      "price": 180,
+      "house_cost": 100,
+      "rent": {
+        "base": 14,
+        "houses": {
+          "1": 70,
+          "2": 200,
+          "3": 550,
+          "4": 750
+        },
+        "hotel": 950
+      },
+      "mortgage": 90
+    },
+    {
+      "code": "O2",
+      "colour_set": "orange",
+      "name_us": "Tennessee Avenue",
+      "name_uk": "Marlborough Street",
+      "name_la": "Avenida Tennessee",
+      "price": 180,
+      "house_cost": 100,
+      "rent": {
+        "base": 14,
+        "houses": {
+          "1": 70,
+          "2": 200,
+          "3": 550,
+          "4": 750
+        },
+        "hotel": 950
+      },
+      "mortgage": 90
+    },
+    {
+      "code": "O3",
+      "colour_set": "orange",
+      "name_us": "New York Avenue",
+      "name_uk": "Vine Street",
+      "name_la": "Avenida Nueva York",
+      "price": 200,
+      "house_cost": 100,
+      "rent": {
+        "base": 16,
+        "houses": {
+          "1": 80,
+          "2": 220,
+          "3": 600,
+          "4": 800
+        },
+        "hotel": 1000
+      },
+      "mortgage": 100
+    },
+    {
+      "code": "R1",
+      "colour_set": "red",
+      "name_us": "Kentucky Avenue",
+      "name_uk": "Strand",
+      "name_la": "Avenida Kentucky",
+      "price": 220,
+      "house_cost": 150,
+      "rent": {
+        "base": 18,
+        "houses": {
+          "1": 90,
+          "2": 250,
+          "3": 700,
+          "4": 875
+        },
+        "hotel": 1050
+      },
+      "mortgage": 110
+    },
+    {
+      "code": "R2",
+      "colour_set": "red",
+      "name_us": "Indiana Avenue",
+      "name_uk": "Fleet Street",
+      "name_la": "Avenida Indiana",
+      "price": 220,
+      "house_cost": 150,
+      "rent": {
+        "base": 18,
+        "houses": {
+          "1": 90,
+          "2": 250,
+          "3": 700,
+          "4": 875
+        },
+        "hotel": 1050
+      },
+      "mortgage": 110
+    },
+    {
+      "code": "R3",
+      "colour_set": "red",
+      "name_us": "Illinois Avenue",
+      "name_uk": "Trafalgar Square",
+      "name_la": "Avenida Illinois",
+      "price": 240,
+      "house_cost": 150,
+      "rent": {
+        "base": 20,
+        "houses": {
+          "1": 100,
+          "2": 300,
+          "3": 750,
+          "4": 925
+        },
+        "hotel": 1100
+      },
+      "mortgage": 120
+    },
+    {
+      "code": "Y1",
+      "colour_set": "yellow",
+      "name_us": "Atlantic Avenue",
+      "name_uk": "Leicester Square",
+      "name_la": "Avenida Atlántico",
+      "price": 260,
+      "house_cost": 150,
+      "rent": {
+        "base": 22,
+        "houses": {
+          "1": 110,
+          "2": 330,
+          "3": 800,
+          "4": 975
+        },
+        "hotel": 1150
+      },
+      "mortgage": 130
+    },
+    {
+      "code": "Y2",
+      "colour_set": "yellow",
+      "name_us": "Ventnor Avenue",
+      "name_uk": "Coventry Street",
+      "name_la": "Avenida Ventnor",
+      "price": 260,
+      "house_cost": 150,
+      "rent": {
+        "base": 22,
+        "houses": {
+          "1": 110,
+          "2": 330,
+          "3": 800,
+          "4": 975
+        },
+        "hotel": 1150
+      },
+      "mortgage": 130
+    },
+    {
+      "code": "Y3",
+      "colour_set": "yellow",
+      "name_us": "Marvin Gardens",
+      "name_uk": "Piccadilly",
+      "name_la": "Jardines Marvin",
+      "price": 280,
+      "house_cost": 150,
+      "rent": {
+        "base": 24,
+        "houses": {
+          "1": 120,
+          "2": 360,
+          "3": 850,
+          "4": 1025
+        },
+        "hotel": 1200
+      },
+      "mortgage": 140
+    },
+    {
+      "code": "G1",
+      "colour_set": "green",
+      "name_us": "Pacific Avenue",
+      "name_uk": "Regent Street",
+      "name_la": "Avenida Pacífico",
+      "price": 300,
+      "house_cost": 200,
+      "rent": {
+        "base": 26,
+        "houses": {
+          "1": 130,
+          "2": 390,
+          "3": 900,
+          "4": 1100
+        },
+        "hotel": 1275
+      },
+      "mortgage": 150
+    },
+    {
+      "code": "G2",
+      "colour_set": "green",
+      "name_us": "North Carolina Avenue",
+      "name_uk": "Oxford Street",
+      "name_la": "Avenida Carolina del Norte",
+      "price": 300,
+      "house_cost": 200,
+      "rent": {
+        "base": 26,
+        "houses": {
+          "1": 130,
+          "2": 390,
+          "3": 900,
+          "4": 1100
+        },
+        "hotel": 1275
+      },
+      "mortgage": 150
+    },
+    {
+      "code": "G3",
+      "colour_set": "green",
+      "name_us": "Pennsylvania Avenue",
+      "name_uk": "Bond Street",
+      "name_la": "Avenida Pennsylvania",
+      "price": 320,
+      "house_cost": 200,
+      "rent": {
+        "base": 28,
+        "houses": {
+          "1": 150,
+          "2": 450,
+          "3": 1000,
+          "4": 1200
+        },
+        "hotel": 1400
+      },
+      "mortgage": 160
+    },
+    {
+      "code": "DB1",
+      "colour_set": "dark-blue",
+      "name_us": "Park Place",
+      "name_uk": "Park Lane",
+      "name_la": "Plaza Park",
+      "price": 350,
+      "house_cost": 200,
+      "rent": {
+        "base": 35,
+        "houses": {
+          "1": 175,
+          "2": 500,
+          "3": 1100,
+          "4": 1300
+        },
+        "hotel": 1500
+      },
+      "mortgage": 175
+    },
+    {
+      "code": "DB2",
+      "colour_set": "dark-blue",
+      "name_us": "Boardwalk",
+      "name_uk": "Mayfair",
+      "name_la": "El Muelle",
+      "price": 400,
+      "house_cost": 200,
+      "rent": {
+        "base": 50,
+        "houses": {
+          "1": 200,
+          "2": 600,
+          "3": 1400,
+          "4": 1700
+        },
+        "hotel": 2000
+      },
+      "mortgage": 200
+    }
+  ],
+  "railroads": [
+    {
+      "code": "RR1",
+      "colour_set": "black",
+      "name_us": "Reading Railroad",
+      "name_uk": "Kings Cross Station",
+      "name_la": "Ferrocarril Reading",
+      "price": 200,
+      "rent": {
+        "with_one": 25,
+        "with_two": 50,
+        "with_three": 100,
+        "with_four": 200
+      },
+      "mortgage": 100
+    },
+    {
+      "code": "RR2",
+      "colour_set": "black",
+      "name_us": "Pennsylvania Railroad",
+      "name_uk": "Marylebone Station",
+      "name_la": "Ferrocarril Pennsylvania",
+      "price": 200,
+      "rent": {
+        "with_one": 25,
+        "with_two": 50,
+        "with_three": 100,
+        "with_four": 200
+      },
+      "mortgage": 100
+    },
+    {
+      "code": "RR3",
+      "colour_set": "black",
+      "name_us": "B. & O. Railroad",
+      "name_uk": "Fenchurch St. Station",
+      "name_la": "Ferrocarril B. & O.",
+      "price": 200,
+      "rent": {
+        "with_one": 25,
+        "with_two": 50,
+        "with_three": 100,
+        "with_four": 200
+      },
+      "mortgage": 100
+    },
+    {
+      "code": "RR4",
+      "colour_set": "black",
+      "name_us": "Short Line",
+      "name_uk": "Liverpool St. Station",
+      "name_la": "Ferrocarril Vía Rápida",
+      "price": 200,
+      "rent": {
+        "with_one": 25,
+        "with_two": 50,
+        "with_three": 100,
+        "with_four": 200
+      },
+      "mortgage": 100
+    }
+  ],
+  "utilities": [
+    {
+      "code": "U1",
+      "colour_set": "white",
+      "name_us": "Electric Company",
+      "name_uk": "Electric Company",
+      "name_la": "Compañía Eléctrica",
+      "price": 150,
+      "rent": {
+        "with_one": 4,
+        "with_two": 10
+      },
+      "mortgage": 75
+    },
+    {
+      "code": "U2",
+      "colour_set": "white",
+      "name_us": "Water Works",
+      "name_uk": "Water Works",
+      "name_la": "Compañía de Agua",
+      "price": 150,
+      "rent": {
+        "with_one": 4,
+        "with_two": 10
+      },
+      "mortgage": 75
+    }
+  ]
+}

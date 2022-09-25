@@ -1,0 +1,127 @@
+@font-face {
+  font-family: Kabel;
+  src: url(fonts/kabelbook/KabelMedium.ttf);
+}
+
+body, html, select, input {
+  font-family: Kabel !important;
+}
+
+s {
+  text-decoration: line-through;
+}
+
+.brown {
+  background-color: #8b4513;
+}
+
+.light-blue {
+  background-color: #aae0fa;
+}
+
+.magenta {
+  background-color: #d93a96;
+}
+
+.orange {
+  background-color: #f7941d;
+}
+
+.red {
+  background-color: #ed1b24;
+}
+
+.yellow {
+  background-color: #f4e900;
+}
+
+.green {
+  background-color: #1fb25a;
+}
+
+.dark-blue {
+  background-color: #0072ba;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+  color: black !important;
+  border: thin solid lightgrey !important;
+}
+
+.monopoly-logo {
+  width: 500px;
+  margin-bottom: -20px;
+}
+
+.notification {
+  padding: 1.25rem 1.5rem !important;
+}
+
+.property-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  min-width: 340px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  border-radius: 30px;
+}
+
+.section {
+  padding-top: 0 !important;
+}
+
+.bill {
+  width: 120px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 40px;
+}
+
+.total-cash-container {
+  width: 150px;
+  margin: auto;
+}
+
+.intro {
+  max-width: 500px;
+  margin: auto;
+}
+
+#cash {
+  background-color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+  .bill {
+    width: 80px;
+  }
+  .flush {
+    margin-bottom: 0 !important;
+  }
+  .monopoly-logo {
+    margin-bottom: -10px;
+  }
+  .hero-body {
+    padding-top: 12px;
+    padding-bottom: 0;
+  }
+  .section {
+    padding-bottom: 12px;
+  }
+  select {
+    width: 340px !important;
+  }
+}
