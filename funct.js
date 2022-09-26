@@ -40,13 +40,13 @@ function populateFields() {
             <div class="select is-rounded">
               <select name="${street.code}" id="${street.code}">
                 <option value="0">Sin comprar</option>
+                <option value="0">Hipotecada</option>
                 <option value="${owned}">Comprada</option>
                 <option value="${buildings[0]}">1 casa</option>
                 <option value="${buildings[1]}">2 casas</option>
                 <option value="${buildings[2]}">3 casas</option>
                 <option value="${buildings[3]}">4 casas</option>
                 <option value="${buildings[4]}">Hotel</option>
-                <option value="0">Hipotecada</option>
               </select>
             </div>
           </div>
