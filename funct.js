@@ -142,7 +142,7 @@ function populateFields() {
         <div class="level-item">
           <div class="input-container">
             <div class="control">
-              <input class="input" type="number" name="${bill.denomination}s" id="${bill.denomination}s" value="0" min="0" step="1">
+              <input class="input" type="number" name="${bill.denomination}s" id="${bill.denomination}s" placeholder="#" min="0" step="1">
             </div>
           </div>
         </div>
